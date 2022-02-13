@@ -16,5 +16,6 @@ After having the solution started and you can use it through the API:
      - http://localhost:8080/api/match/convertPeriod
      - Content-Type: application/x-www-form-urlencoded
      - Body: key->time, value->{match_time} (e.g. time=[H1] 46:15.752)
- - By using command cURL
+ - By using command cURL:
+      - e.g. curl -X POST http://localhost:8080/api/match/convertPeriod -H "Content-Type: application/x-www-form-urlencoded" -d "time=[H1] 46:15.752" 
     
