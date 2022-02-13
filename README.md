@@ -2,9 +2,9 @@ This converter was developed using Spring Boot 2.6.3 framework, Java 11 and Mave
 
 In order to execute the solution you can either run as a Spring Boot application in your IDE or through the .jar file.
 
-Regarding the second option, to generate the jar file you should execute, under the project folder (MatchTimeConverter), the following command on your command line:
+Regarding the second option, to generate the jar file you should execute, under the project folder (MatchTime), the following command on your command line:
  - mvn clean package;
- - jar file will be available on the following path: MatchTimeConverter\target\MatchTimeConverter-1.0.0.jar;
+ - jar file will be available on the following path: MatchTime\target\MatchTimeConverter-1.0.0.jar;
  - in alternative, you can use the jar file sent;
 
 Once jar file is available, you can run the solution executing the following command:
